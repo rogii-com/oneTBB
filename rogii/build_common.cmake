@@ -57,7 +57,7 @@ include(
 
 set(
     PACKAGE_NAME
-    "oneTBB-${ROGII_PKG_VERSION}-${ARCH}-${BUILD}${TAG}"
+    "tbb-${ROGII_PKG_VERSION}-${ARCH}-${BUILD}${TAG}"
 )
 
 set(
