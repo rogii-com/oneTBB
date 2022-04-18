@@ -66,7 +66,12 @@ set(
 )
 
 
-# apt-get install gcc-multilib g++-multilib
+if(WIN32)
+    message(
+        FATAL_ERROR
+        "Windows is not currently supported"
+    )
+endif()
 
 if(ARCH STREQUAL "amd64")
     set(
